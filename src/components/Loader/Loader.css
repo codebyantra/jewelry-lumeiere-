@@ -1,0 +1,47 @@
+.loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: var(--void);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.loader-sparkle {
+  animation: sparkle-spin 2.4s ease-in-out infinite;
+  filter: drop-shadow(0 0 14px rgba(201, 161, 74, 0.6));
+}
+
+@keyframes sparkle-spin {
+  0%, 100% { transform: scale(0.85) rotate(0deg); opacity: 0.7; }
+  50% { transform: scale(1.05) rotate(90deg); opacity: 1; }
+}
+
+.loader-logo {
+  font-family: var(--font-display);
+  font-size: 34px;
+  letter-spacing: 0.14em;
+  color: var(--white);
+  font-weight: 300;
+}
+
+.loader-bar {
+  width: 220px;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+
+.loader-bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--gold), var(--champagne));
+}
+
+.loader-percent {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: var(--ink-40);
+}

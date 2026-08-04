@@ -1,0 +1,106 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 500;
+  height: var(--header-h);
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  transition: background 0.5s var(--ease-lux), border-color 0.5s var(--ease-lux), box-shadow 0.5s var(--ease-lux);
+}
+
+.header.is-scrolled {
+  background: rgba(15, 15, 16, 0.72);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-bottom-color: var(--hairline);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+}
+
+.header-inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.header-logo {
+  font-family: var(--font-display);
+  font-size: 27px;
+  letter-spacing: 0.06em;
+  color: var(--white);
+  font-weight: 500;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-burger {
+  display: none;
+  font-size: 22px;
+  color: var(--champagne);
+}
+
+.header-search {
+  border-top: 1px solid var(--hairline);
+  background: rgba(15, 15, 16, 0.95);
+  backdrop-filter: blur(18px);
+  padding: 22px 0;
+}
+
+.header-search .container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-search input {
+  flex: 1;
+  background: none;
+  border: none;
+  border-bottom: 1px solid var(--hairline);
+  padding: 10px 0;
+  font-family: var(--font-display);
+  font-size: 22px;
+  color: var(--white);
+}
+
+.header-search input:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+.header-search button {
+  font-size: 20px;
+  color: var(--champagne);
+}
+
+.header-mobile {
+  display: none;
+  flex-direction: column;
+  padding: 20px 24px 28px;
+  background: rgba(15, 15, 16, 0.97);
+  border-top: 1px solid var(--hairline);
+  gap: 18px;
+}
+
+.header-mobile a {
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--champagne);
+}
+
+@media (max-width: 900px) {
+  .header-burger { display: block; }
+  .header-mobile { display: flex; }
+}
+
+@media (max-width: 480px) {
+  .header-actions .profile-btn { display: none; }
+}

@@ -1,0 +1,13 @@
+.new-arrivals-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 26px;
+}
+
+@media (max-width: 1024px) {
+  .new-arrivals-grid { grid-template-columns: repeat(2, 1fr); gap: 18px; }
+}
+
+@media (max-width: 480px) {
+  .new-arrivals-grid { grid-template-columns: 1fr; }
+}

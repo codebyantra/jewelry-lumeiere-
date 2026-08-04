@@ -1,0 +1,16 @@
+.best-sellers-slider {
+  padding-left: max(40px, calc((100vw - 1360px) / 2 + 40px));
+}
+
+.best-sellers-slider .swiper {
+  overflow: visible;
+}
+
+.best-sellers-slide {
+  width: 290px;
+}
+
+@media (max-width: 1024px) {
+  .best-sellers-slider { padding-left: 24px; }
+  .best-sellers-slide { width: 240px; }
+}
