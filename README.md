@@ -1,49 +1,33 @@
 💎 Lumière — Luxury Jewelry E-Commerce
 
-Lumière is a premium luxury jewelry e-commerce frontend built with React 19, designed to deliver an immersive and elegant shopping experience. It combines cinematic scroll animations, refined interactions, responsive layouts, and a sophisticated dark aesthetic inspired by modern luxury jewelry brands.
+A modern luxury jewelry e-commerce frontend built with React 19, featuring elegant dark UI, smooth animations, and immersive interactions.
 
 ✨ Features
 
-💎 Cinematic Hero Experience — GSAP and ScrollTrigger-powered animations
+💎 GSAP + ScrollTrigger animations
 
-🎬 Smooth Scrolling — Seamless scrolling experience with Lenis
+🎬 Smooth scrolling with Lenis
 
-⚡ Modern React Setup — Built with React 19 and Vite
+⚡ React 19 + Vite
 
-🎨 Luxury-Inspired UI — Elegant dark theme with premium visual styling
+🎨 Luxury dark-themed UI
 
-📱 Fully Responsive — Optimized for desktop, tablet, and mobile devices
+📱 Fully responsive design
 
-🛍️ Product Showcase — Browse products with category-based collections
+🛍️ Product listings & categories
 
-❤️ Wishlist & Shopping Cart — Save and manage favorite products
+❤️ Wishlist & shopping cart
 
-⭐ Best Sellers & Testimonials — Interactive sliders powered by Swiper.js
+⭐ Best sellers & testimonials
 
-🔍 Product Details — Dedicated pages for individual products
+🔍 Product details page
 
-✨ Micro-Interactions — Smooth hover effects and refined UI animations
+✨ Hover effects & micro-interactions
 
-⚙️ Custom CSS — Built with external CSS without Tailwind CSS or Bootstrap
+⚙️ Custom CSS — No Tailwind or Bootstrap
 
 🛠️ Tech Stack
 
-React 19 — Component-based UI development
-
-JavaScript / JSX — Application logic and UI structure
-
-React Router DOM — Client-side routing and navigation
-
-GSAP + ScrollTrigger — Advanced animations and scroll-based interactions
-
-Framer Motion — UI transitions and motion effects
-
-Lenis — Smooth scrolling
-
-Swiper.js — Responsive sliders and carousels
-
-React Icons — Icon library
-
-Vite — Fast development and build tooling
+React • JavaScript/JSX • React Router • GSAP • Framer Motion • Lenis • Swiper.js • React Icons • Vite
 
 📂 Project Structure
